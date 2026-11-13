@@ -239,7 +239,6 @@ Results:
 - Total sampled records: 1,000
 - Total columns checked: 19
 - Missing values: 0
-- Duplicate records: 0
 
 All 19 columns contained complete values in the
 sample. Therefore, no missing values were detected.
