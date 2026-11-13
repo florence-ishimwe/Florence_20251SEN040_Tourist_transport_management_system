@@ -1,8 +1,8 @@
 # Tourist Transport and Trip Management System
 
 ## Student Information
-- Name: [Ishimwe Florence]
-- Student ID: [20251SEN040]
+- Name: Ishimwe Florence
+- Student ID: 20251SEN040
 
 ## Problem Statement
 Many tourism and transport companies face challenges managing customer bookings, vehicle availability, driver assignments, payments, and trip schedules using manual methods. These challenges can lead to booking conflicts, poor record management, and difficulties tracking company operations.
