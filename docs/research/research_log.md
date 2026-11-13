@@ -2,14 +2,16 @@
 # Research Log
 ## Project: Tourist Transport and Trip Management System
 
+
 | # | Source (APA) | Type | Link | Key Finding | Gap It Shows |
 |---|---|---|---|---|---|
-| 1 | Zheng, W., Zhuang, X., Liao, Z., Li, M., & Lin, Z. (2021). All roads lead to the places of your interest: An on-demand, ride-sharing visitor transport service. *International Journal of Tourism Research, 23*(5), 871–880. | Research Paper | https://doi.org/10.1002/jtr.2449 | The study proposes an intelligent visitor transport service that improves vehicle scheduling, reduces visitor waiting time, and improves energy efficiency. | The study focuses on visitor transport scheduling rather than integrated management of customers, drivers, vehicles, bookings, and payments. |
-| 2 | Hong, Y., Xu, M., Jin, Y., & Wang, S. (2025). Data-driven modular vehicle scheduling in scenic areas. *Applied Sciences, 15*(1), Article 205. | Research Paper | https://doi.org/10.3390/app15010205 | The study proposes a data-driven vehicle scheduling method to improve vehicle utilization and reduce operating costs in tourist areas. | The study focuses on vehicle scheduling rather than complete transport company management, including customer bookings and payment tracking. |
-| 3 | Rwanda Development Board. (2025). *Annual Report 2024*. https://rdb.rw/ar/Annual-report-2024.pdf | Report/Statistic | Rwanda generated USD 647 million in tourism revenue and welcomed 1.36 million visitors in 2024. Tourism revenue increased by 4.3% compared with 2023. | The report demonstrates the importance and growth of Rwanda's tourism sector, supporting the need for efficient tourism transport management systems. |
-| 4 | Permalink Business Ltd. (n.d.). *Tour Operator System (TOS).* https://permalinkbusiness.com/products/tour-operator-system/ | Existing System | TOS provides booking management, itinerary creation, vehicle and driver allocation, payment tracking, invoicing, and financial reporting for tour operators. | Our project will develop a smaller Oracle-based system focused on six main tables, using PL/SQL to enforce booking, vehicle availability, driver assignment, and payment rules. |
-| 5 | New York City Taxi and Limousine Commission. (n.d.). *TLC Trip Record Data*. https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page | Dataset | The dataset contains taxi trip records, including pickup and drop-off dates, times, locations, trip distances, passenger counts, fares, and payment types. | The dataset does not contain individual customer or driver identities and is not specific to tourist transport in Rwanda. It can provide a reference for designing trip and payment records. |
-| 6 | Oracle. (n.d.). *Oracle Database PL/SQL Language Reference*. https://docs.oracle.com/en/database/oracle/oracle-database/23/lnpls/ | Technical Source | The documentation explains PL/SQL programming concepts, including procedures, functions, cursors, packages, triggers, variables, and exception handling in Oracle Database. | Provides the technical knowledge needed to implement database operations, automate business rules, handle errors, and maintain the Tourist Transport and Trip Management System. |
+| 1 | Hartleb, J., Friedrich, M., & Richter, E. (2022). *Vehicle scheduling for on-demand vehicle fleets in macroscopic travel demand models.* | Research Paper | https://doi.org/10.1007/s11116-021-10205-4 | Vehicle scheduling and relocation can help estimate fleet requirements and improve vehicle utilization. | Focuses on vehicle scheduling rather than complete transport company management. |
+| 2 | Al-Hawari, F., Al-Sammarraie, M., & Al-Khaffaf, T. (2020). *Design, validation, and comparative analysis of a private bus location tracking information system.* | Research Paper | https://doi.org/10.1155/2020/8895927 | Demonstrates how a computerized system can support bus management, driver assignment, scheduling and trip monitoring. | Focuses on bus transportation rather than tourism bookings and payment management. |
+| 3 | National Institute of Statistics of Rwanda. (2024). *Rwanda Statistical Yearbook 2024.* | Report/Statistic | https://www.statistics.gov.rw/sites/default/files/documents/2025-02/Statistical_Year_Book_2024.pdf | Provides statistics about Rwanda's transport and tourism sectors, including licensed transport companies and national park visits. | Provides general sector statistics rather than information about individual transport company booking operations. |
+| 4 | Distinctive Systems. (n.d.). *Coach Manager.* | Existing System | https://distinctive-systems.com/products/coach-manager/ | Provides transport management features such as booking, vehicle allocation, driver scheduling and invoicing. | It is a commercial system with features beyond the scope of our proposed academic project. |
+| 5 | New York City Taxi and Limousine Commission. (n.d.). *TLC Trip Record Data.* | Dataset | https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page | Provides trip information including pickup and drop-off times, locations, passenger counts, distances and fares. | Does not identify individual drivers and is not specific to tourism transport in Rwanda. |
+| 6 | Oracle. (n.d.). *Oracle Database SQL Language Reference: Constraints.* | Technical Source | https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/constraint.html | Explains primary keys, foreign keys and other database constraints used to maintain data integrity. | Provides technical database guidance rather than a complete transport management solution. |
+
 
 ## 1. Research Paper 1
 
@@ -185,7 +187,7 @@ Our proposed system will focus on six main database tables: CUSTOMER, DRIVER, VE
 Distinctive Systems. (n.d.). *Coach Manager*. https://distinctive-systems.com/products/coach-manager/
 
 
-## 5.Dataset Research
+## 5. Dataset Research
 
 ### NYC Yellow Taxi Trip Data (January 2023)
 
@@ -264,6 +266,8 @@ Results:
 
 These values may indicate unusual trips, adjustments, or incomplete records. Further investigation is required before deciding whether they should be removed during data cleaning.
 
+No records were deleted during this initial analysis.
+
 ## 6. Technical Source Research
 
 ### Source Information
@@ -297,5 +301,4 @@ The documentation will help guide the design of primary keys, foreign keys and o
 
 Oracle. (n.d.). *Oracle Database SQL Language Reference: Constraints*. https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/constraint.html
 
-No records were deleted during this initial analysis.
 
