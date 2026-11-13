@@ -5,7 +5,7 @@
 
 | # | Source (APA) | Type | Link | Key Finding | Gap It Shows |
 |---|---|---|---|---|---|
-| 1 | Hartleb, J., Friedrich, M., & Richter, E. (2022). *Vehicle scheduling for on-demand vehicle fleets in macroscopic travel demand models.* | Research Paper | https://doi.org/10.1007/s11116-021-10205-4 | Vehicle scheduling and relocation can help estimate fleet requirements and improve vehicle utilization. | Focuses on vehicle scheduling rather than complete transport company management. |
+| 1 | Hartleb, J., Friedrich, M., & Richter, E. (2022). *Vehicle scheduling for on-demand vehicle fleets in macroscopic travel demand models.* | Research Paper | https://doi.org/10.1007/s11116-021-10205-4 | The researchers developed an algorithm that creates vehicle schedules using travel demand information and estimates the number of vehicles required, including empty vehicle trips. | Focuses on vehicle scheduling rather than complete transport company management. |
 | 2 | Al-Hawari, F., Al-Sammarraie, M., & Al-Khaffaf, T. (2020). *Design, validation, and comparative analysis of a private bus location tracking information system.* | Research Paper | https://doi.org/10.1155/2020/8895927 | Demonstrates how a computerized system can support bus management, driver assignment, scheduling and trip monitoring. | Focuses on bus transportation rather than tourism bookings and payment management. |
 | 3 | National Institute of Statistics of Rwanda. (2024). *Rwanda Statistical Yearbook 2024.* | Report/Statistic | https://www.statistics.gov.rw/sites/default/files/documents/2025-02/Statistical_Year_Book_2024.pdf | Provides statistics about Rwanda's transport and tourism sectors, including licensed transport companies and national park visits. | Provides general sector statistics rather than information about individual transport company booking operations. |
 | 4 | Distinctive Systems. (n.d.). *Coach Manager.* | Existing System | https://distinctive-systems.com/products/coach-manager/ | Provides transport management features such as booking, vehicle allocation, driver scheduling and invoicing. | It is a commercial system with features beyond the scope of our proposed academic project. |
@@ -80,9 +80,11 @@ The researchers designed and developed a web-based system. They worked on the us
 
 ### Main Findings
 
-The developed system supported bus management, driver assignment, route scheduling and trip monitoring.
+The researchers developed a web-based system that supports bus management, driver assignment, route and schedule management, and trip monitoring.
 
-The evaluation showed that the system was helpful, easy to use, fast and responsive.
+The system can also detect scheduling conflicts, record and replay bus trips, and allow passengers to track trips and provide feedback.
+
+The evaluation showed that users found the system helpful, easy to use, fast, responsive and accurate.
 
 ### Relevance to Our Research
 
