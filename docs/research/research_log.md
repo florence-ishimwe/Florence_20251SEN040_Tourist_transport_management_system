@@ -118,7 +118,7 @@ The report provides official statistical information about different sectors in 
 
 According to the report:
 
-- There were 64 licensed rental car hire companies and cooperatives in 2023.
+- Rwanda had 47 licensed public transport companies and cooperatives in 2023.
 - Rwanda recorded 135,869 visits to its three major national parks in 2023.
 
 ### Relevance to Our Research
