@@ -10,3 +10,30 @@
 | 4 | Permalink Business Ltd. (n.d.). *Tour Operator System (TOS).* https://permalinkbusiness.com/products/tour-operator-system/ | Existing System | TOS provides booking management, itinerary creation, vehicle and driver allocation, payment tracking, invoicing, and financial reporting for tour operators. | Our project will develop a smaller Oracle-based system focused on six main tables, using PL/SQL to enforce booking, vehicle availability, driver assignment, and payment rules. |
 | 5 | New York City Taxi and Limousine Commission. (n.d.). *TLC Trip Record Data*. https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page | Dataset | The dataset contains taxi trip records, including pickup and drop-off dates, times, locations, trip distances, passenger counts, fares, and payment types. | The dataset does not contain individual customer or driver identities and is not specific to tourist transport in Rwanda. It can provide a reference for designing trip and payment records. |
 | 6 | Oracle. (n.d.). *Oracle Database PL/SQL Language Reference*. https://docs.oracle.com/en/database/oracle/oracle-database/23/lnpls/ | Technical Source | The documentation explains PL/SQL programming concepts, including procedures, functions, cursors, packages, triggers, variables, and exception handling in Oracle Database. | Provides the technical knowledge needed to implement database operations, automate business rules, handle errors, and maintain the Tourist Transport and Trip Management System. |
+#### Dataset Analysis and Findings
+
+A sample of 1,000 records was extracted from the original
+NYC Yellow Taxi Trip Data for January 2023.
+
+The descriptive statistics showed:
+
+- Average passenger count: 1.517
+- Average trip distance: 2.96 miles
+- Average fare amount: $16.95
+- Average total amount: $25.19
+- Maximum trip distance: 30.15 miles
+
+The dataset contains useful information about trip
+timing, passenger numbers, travel distances, pickup
+and drop-off locations, and payment information.
+
+Some records contain unusual values, such as zero
+trip distances and negative fare amounts. These
+require further investigation during data cleaning.
+
+#### Limitations
+
+- The dataset represents New York City taxi trips.
+- It does not identify individual drivers.
+- It does not provide vehicle registration numbers.
+- It cannot directly represent Rwanda's transport system.
