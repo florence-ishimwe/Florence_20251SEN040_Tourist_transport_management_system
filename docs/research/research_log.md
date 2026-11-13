@@ -5,12 +5,12 @@
 
 | # | Source (APA) | Type | Link | Key Finding | Gap It Shows |
 |---|---|---|---|---|---|
-| 1 | Hartleb, J., Friedrich, M., & Richter, E. (2022). *Vehicle scheduling for on-demand vehicle fleets in macroscopic travel demand models.* | Research Paper | https://doi.org/10.1007/s11116-021-10205-4 | The researchers developed an algorithm that creates vehicle schedules using travel demand information and estimates the number of vehicles required, including empty vehicle trips. | Focuses on vehicle scheduling rather than complete transport company management. |
-| 2 | Al-Hawari, F., Al-Sammarraie, M., & Al-Khaffaf, T. (2020). *Design, validation, and comparative analysis of a private bus location tracking information system.* | Research Paper | https://doi.org/10.1155/2020/8895927 | Demonstrates how a computerized system can support bus management, driver assignment, scheduling and trip monitoring. | Focuses on bus transportation rather than tourism bookings and payment management. |
-| 3 | National Institute of Statistics of Rwanda. (2024). *Rwanda Statistical Yearbook 2024.* | Report/Statistic | https://www.statistics.gov.rw/sites/default/files/documents/2025-02/Statistical_Year_Book_2024.pdf | Provides statistics about Rwanda's transport and tourism sectors, including licensed transport companies and national park visits. | Provides general sector statistics rather than information about individual transport company booking operations. |
-| 4 | Distinctive Systems. (n.d.). *Coach Manager.* | Existing System | https://distinctive-systems.com/products/coach-manager/ | Provides transport management features such as booking, vehicle allocation, driver scheduling and invoicing. | It is a commercial system with features beyond the scope of our proposed academic project. |
-| 5 | New York City Taxi and Limousine Commission. (n.d.). *TLC Trip Record Data.* | Dataset | https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page | Provides trip information including pickup and drop-off times, locations, passenger counts, distances and fares. | Does not identify individual drivers and is not specific to tourism transport in Rwanda. |
-| 6 | Oracle. (n.d.). *Oracle Database SQL Language Reference: Constraints.* | Technical Source | https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/constraint.html | Explains primary keys, foreign keys and other database constraints used to maintain data integrity. | Provides technical database guidance rather than a complete transport management solution. |
+| 1 | Hartleb, J., Friedrich, M., & Richter, E. (2022). *Vehicle scheduling for on-demand vehicle fleets in macroscopic travel demand models.* | Research Paper | https://doi.org/10.1007/s11116-021-10205-4 | The researchers developed an algorithm that creates vehicle schedules using travel demand information and estimates the number of vehicles required, including empty vehicle trips. | The study focuses on vehicle scheduling and fleet requirements rather than a complete system for managing customers, drivers, destinations, bookings and payments. |
+| 2 | Al-Hawari, F., Al-Sammarraie, M., & Al-Khaffaf, T. (2020). *Design, validation, and comparative analysis of a private bus location tracking information system.* | Research Paper | https://doi.org/10.1155/2020/8895927 | The researchers developed and evaluated a web-based bus management system that supports driver assignment, bus and route management, scheduling, trip monitoring and passenger feedback. | The study focuses on bus location tracking and bus operations rather than tourism transport bookings, destination management and payment management. |
+| 3 | National Institute of Statistics of Rwanda. (2024). *Rwanda Statistical Yearbook 2024.* | Report/Statistic | https://www.statistics.gov.rw/sites/default/files/documents/2025-02/Statistical_Year_Book_2024.pdf | The report records 47 public transport companies and cooperatives in Rwanda in 2023 and 135,869 visits to the country's three major national parks. | The report provides general transport and tourism statistics but does not explain how individual tourism transport companies manage customers, drivers, vehicles, bookings and payments. |
+| 4 | Distinctive Systems. (n.d.). *Coach Manager.* | Existing System | https://distinctive-systems.com/products/coach-manager/ | Coach Manager provides booking management, vehicle and driver allocation, scheduling, invoicing and payment management for transport operators. | Coach Manager is a commercial transport management system, and its advanced features may be beyond the scope of our proposed academic project. |
+| 5 | New York City Taxi and Limousine Commission. (n.d.). *TLC Trip Record Data.* | Dataset | https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page | The dataset provides taxi trip information, including pickup and drop-off times and locations, passenger counts, trip distances, fares and payment types. | The dataset represents New York City taxi trips and does not contain individual driver identities, vehicle registration numbers or tourism-specific booking information. |
+| 6 | Oracle. (n.d.). *Oracle Database SQL Language Reference: Constraints.* | Technical Source | https://docs.oracle.com/en/database/oracle/oracle-database/21/sqlrf/constraint.html | Oracle explains how primary keys, foreign keys, NOT NULL, UNIQUE and CHECK constraints help maintain data accuracy and integrity in a database. | Oracle documentation explains database constraints but does not provide a complete transport management system. |
 
 
 ## 1. Research Paper 1
@@ -38,7 +38,7 @@ The researchers developed a vehicle scheduling algorithm and tested it through t
 
 ### Main Findings
 
-The study showed that vehicle scheduling and relocation can help estimate fleet requirements and improve the use of available vehicles.
+The study developed a vehicle scheduling algorithm that uses travel demand information to determine the number of vehicles required and the empty trips needed for vehicle relocation. The two case studies demonstrated how the algorithm can be applied to carsharing and shared scooter services.
 
 ### Relevance to Our Research
 
@@ -80,11 +80,9 @@ The researchers designed and developed a web-based system. They worked on the us
 
 ### Main Findings
 
-The researchers developed a web-based system that supports bus management, driver assignment, route and schedule management, and trip monitoring.
+The researchers developed a web-based bus management and tracking system that supports bus setup, driver assignment, route and schedule management, trip monitoring and passenger feedback.
 
-The system can also detect scheduling conflicts, record and replay bus trips, and allow passengers to track trips and provide feedback.
-
-The evaluation showed that users found the system helpful, easy to use, fast, responsive and accurate.
+The system was tested, and the user survey confirmed that it was easy to use, helpful, fast, responsive and accurate.
 
 ### Relevance to Our Research
 
@@ -120,7 +118,6 @@ The report provides official statistical information about different sectors in 
 
 According to the report:
 
-- Rwanda had 47 licensed public transport companies and cooperatives in 2023.
 - There were 64 licensed rental car hire companies and cooperatives in 2023.
 - Rwanda recorded 135,869 visits to its three major national parks in 2023.
 
@@ -242,6 +239,7 @@ Results:
 - Total sampled records: 1,000
 - Total columns checked: 19
 - Missing values: 0
+- Duplicate records: 0
 
 All 19 columns contained complete values in the
 sample. Therefore, no missing values were detected.
