@@ -11,51 +11,74 @@
 
 ## 1. Problem Statement
 
-Tourism and transport companies may face difficulties managing customer bookings, vehicle availability, driver assignments, destinations, and payments when these activities are handled manually or kept in separate records. This can lead to booking conflicts, delays in confirming trips, difficulty identifying available vehicles, and challenges retrieving accurate customer and payment information. Rwanda Explorer Travel Ltd is the proposed case company for addressing these challenges.
+Many transport companies have difficulties managing customer bookings, drivers, vehicles, trip schedules and payments manually. This can lead to booking conflicts, delays and poor record keeping. Rwanda Explorer Travel Ltd is the proposed transport company for this project.
 
 ## 2. Proposed Solution
 
-The project proposes a Tourist Transport and Trip Management System implemented using an Oracle relational database. Company staff will register customers, maintain driver and vehicle information, record destinations, create and manage bookings, assign available vehicles and drivers, and record payments. The database will organize related information and use constraints and PL/SQL program units to support accurate and efficient operations.
+The project proposes an Oracle database system to help Rwanda Explorer Travel Ltd manage its transport operations. Company staff will register customers, manage driver and vehicle information, record destinations, create bookings, assign drivers and vehicles, and record payments.
+
+The system will use SQL and PL/SQL to organize information, check data and reduce booking conflicts.
 
 ## 3. Data Source
 
-The January 2023 New York City Taxi and Limousine Commission (NYC TLC) Yellow Taxi Trip Record dataset will be used for preliminary transport-data exploration and analysis. Rwanda Statistical Yearbook 2024 will provide contextual transport and tourism statistics. Academic studies on vehicle scheduling and transport tracking, together with Oracle Database documentation, will support the research and database design.
+The project will use the January 2023 New York City Taxi and Limousine Commission (NYC TLC) Yellow Taxi Trip Record dataset for preliminary transport-data analysis. The original dataset contains 3,066,766 records, and a sample of 1,000 records was used for analysis.
 
-Company-specific customer, driver, vehicle, booking, destination, and payment records will be entered by authorized staff; the public taxi dataset will not be treated as the company's operational records.
+The Rwanda Statistical Yearbook 2024 will provide information about Rwanda's transport and tourism sectors. Research papers and Oracle documentation will also support the project.
+
+The NYC TLC dataset is only a reference for transport information. It does not contain the actual company records. Customer, driver, vehicle, booking, destination and payment records for the proposed system will be entered separately.
+
+Dataset link: https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 ## 4. Planned Tables
 
-- **CUSTOMER** – stores customer details.
-- **DRIVER** – stores driver details.
-- **VEHICLE** – stores vehicle details and availability.
-- **DESTINATION** – stores trip destination details.
-- **BOOKING** – stores customer trip bookings, dates, assigned driver and vehicle, and booking status.
-- **PAYMENT** – stores payment details linked to bookings.
+The system will have six main tables:
+
+- **CUSTOMER:** Stores customer information.
+- **DRIVER:** Stores driver information.
+- **VEHICLE:** Stores vehicle details and availability.
+- **DESTINATION:** Stores destination details.
+- **BOOKING:** Stores trip details, dates, assigned drivers and vehicles, and booking status.
+- **PAYMENT:** Stores payment details linked to bookings.
 
 ## 5. Planned PL/SQL Features
 
 The project plans to use:
 
-- **Stored Procedures:** To manage bookings and record payments.
-- **Functions:** To calculate payment totals.
-- **Triggers:** To validate booking operations and help prevent conflicting vehicle assignments.
-- **Cursors or Parameterized Queries:** To produce booking, vehicle, and payment reports.
+- **Procedures:** To create and update bookings, assign drivers and vehicles, and record payments.
+- **Functions:** To calculate booking totals and outstanding balances.
+- **Cursors:** To process and display customer bookings and scheduled trips.
+- **Triggers:** To validate booking operations and update related records when necessary.
+- **Packages:** To group related booking and payment procedures and functions.
+- **Exception Handling:** To handle errors such as invalid booking IDs, unavailable vehicles and invalid payment amounts.
 
-Primary-key, foreign-key, NOT NULL, UNIQUE, and CHECK constraints will help maintain data integrity.
+Primary keys, foreign keys, NOT NULL, UNIQUE and CHECK constraints will help maintain correct and consistent data.
 
 ## 6. Innovation
 
-The system will bring customer, trip, destination, vehicle, driver, and payment information together in one database. Its main value is the coordination of booking management with vehicle and driver assignment, supported by database validation to reduce scheduling conflicts and improve access to organized trip records.
+The project will use **Oracle APEX** as its innovation tool. It will provide an interactive web interface connected to the Oracle database.
+
+Company staff will use forms to enter and update information. They will also use reports to view bookings, driver and vehicle assignments, and payments. The application will use the database and PL/SQL rules to manage operations.
+
+**Innovation option:** User Interface  
+**Innovation tool:** Oracle APEX
 
 ## 7. References (APA)
 
-Al-Hawari, F., Al-Sammarraie, M., & Al-Khaffaf, M. (2020). Design, validation, and comparative analysis of a private bus location tracking information system. *Journal of Advanced Transportation*. https://doi.org/10.1155/2020/8895927
+Al-Hawari, F., Al-Sammarraie, M., & Al-Khaffaf, H. (2020). Design, validation, and comparative analysis of a private bus location tracking information system. *Journal of Advanced Transportation*. https://doi.org/10.1155/2020/8895927
 
-Hartleb, J., Friedrich, M., & Richter, B. (2022). Vehicle scheduling for on-demand vehicle fleets in macroscopic travel demand models. *Transportation*. https://doi.org/10.1007/s11116-021-10205-4
+Distinctive Systems. (n.d.). *Coach Manager*. https://www.distinctive-systems.com/
 
-National Institute of Statistics of Rwanda. (2024). *Rwanda statistical yearbook 2024*.
+Hartleb, P., Friedrich, M., & Richter, B. (2022). Vehicle scheduling for on-demand vehicle fleets in macroscopic travel demand models. *Transportation*. https://doi.org/10.1007/s11116-021-10205-4
 
-New York City Taxi and Limousine Commission. (2023). *TLC trip record data: Yellow taxi trip records (January 2023).*
+National Institute of Statistics of Rwanda. (2024). *Rwanda Statistical Yearbook 2024*.
 
-Oracle. (n.d.). *Oracle Database SQL language reference: Constraints.*
+New York City Taxi and Limousine Commission. (2023). *TLC Trip Record Data: Yellow Taxi Trip Records (January 2023)*. https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+Oracle. (n.d.). *Oracle Database SQL Language Reference: Constraints*. https://docs.oracle.com/en/database/
+
+
+
+
+
+
 
