@@ -88,6 +88,8 @@ New York City Taxi and Limousine Commission. (2023). *TLC Trip Record Data: Yell
 
 Oracle. (n.d.). *Oracle Database SQL Language Reference: Constraints*. https://docs.oracle.com/en/database/
 
+## Phase I – Business Process Modeling
+
 
 
 
