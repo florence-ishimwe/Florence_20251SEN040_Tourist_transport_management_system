@@ -91,7 +91,7 @@ Oracle. (n.d.). *Oracle Database SQL Language Reference: Constraints*. https://d
 ## Phase I – Business Process Modeling
 
 ## Overview
-in this business process model i  for the **trip booking and scheduling** process of the Tourist Transport and Trip Management System (Rwanda Explorer Travel Ltd). The process shows how a customer's trip request is checked, scheduled, paid for, confirmed and communicated to everyone involved.
+This phase presents the business process model i  for the **trip scheduling and booking management system** process of the Tourist Transport and Trip Management System (Rwanda Explorer Travel Ltd). The process shows how a customer's trip request is checked, scheduled, paid for, confirmed and communicated to everyone involved.
 
 ## Business Process Description
 A customer requests a trip. The booking officer collects the trip details (destination, date, number of passengers, trip type, pickup location) and checks whether a suitable **vehicle** and **driver** are available. If both are available, the system assigns them to the trip and records the booking as *Pending*. The customer then pays a deposit, the system confirms the booking, and a notification is sent to both the **customer** and the **driver**.
@@ -123,7 +123,6 @@ If a vehicle or a driver is not available, the customer is offered a new date or
 - The vehicle must have enough seats for the number of passengers.
 - The driver must be active, not on leave, and licensed for the vehicle type.
 - A booking is confirmed only after the deposit is paid.
-- A change to an existing schedule requires the vehicle and driver availability checks to be repeated (not drawn in the current diagram).
 
 ## Modeling Tool
 - **Tool:** [draw.io](https://www.drawio.com/) (diagrams.net)
