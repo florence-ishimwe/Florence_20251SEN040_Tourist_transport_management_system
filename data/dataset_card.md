@@ -30,13 +30,27 @@ Each record represents one taxi trip in New York City during January 2023. The r
 
 ## 7. Data Quality Report
 
-The dataset was examined to identify missing values, duplicate records and unusual values.
+The dataset was examined using Excel and data analysis
+to identify missing values, duplicate records,
+inconsistent text values and unusual numeric values.
 
-- **Missing values:** No missing values were found in the 19 columns.
-- **Duplicate records:** No duplicate records were identified.
-- **Negative fare amounts:** 6 records.
-- **Zero trip distances:** 8 records.
-- **Zero passenger counts:** 13 records.
+The following results were obtained:
 
-These unusual values were identified during the preliminary data quality assessment. They have not yet been corrected because data cleaning will be performed during the implementation phase.
+| Quality Check | Result |
+|---|---:|
+| Total records | 1,000 |
+| Total columns | 19 |
+| Missing values | 0 |
+| Duplicate records | 0 |
+| Negative fare amounts | 6 |
+| Zero trip distances | 8 |
+| Zero passenger counts | 13 |
+| Non-numeric values in numeric columns | 0 |
 
+The categorical column store_and_fwd_flag contains
+two values: N (996 records) and Y (4 records).
+No spelling variations were identified.
+
+The unusual values have not been corrected.
+They will be considered during the data cleaning
+stage in Phase IV.
