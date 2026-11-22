@@ -15,7 +15,7 @@ The dataset is publicly available from the New York City Taxi and Limousine Comm
 
 ## 4. Dataset Format and Size
 
-- **Format:** Parquet (.parquet)
+- **Format:** Excel Workbook (.xlsx)
 - **Number of records:** 1,000
 - **Number of columns:** 19
 - **Data type:** Structured tabular data
