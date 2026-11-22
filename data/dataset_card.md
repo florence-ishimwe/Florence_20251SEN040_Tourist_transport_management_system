@@ -27,6 +27,7 @@ The dataset was downloaded during the preparation of Phase 0 and Phase II of the
 ## 6. What One Record Represents
 
 Each record represents one taxi trip in New York City during January 2023. The record contains information about the trip, including pickup and drop-off times, passenger count, trip distance, location IDs, fare amount and payment-related details.
+
 ## 7. Data Quality Report
 
 The dataset was examined to identify missing values, duplicate records and unusual values.
@@ -38,3 +39,4 @@ The dataset was examined to identify missing values, duplicate records and unusu
 - **Zero passenger counts:** 13 records.
 
 These unusual values were identified during the preliminary data quality assessment. They have not yet been corrected because data cleaning will be performed during the implementation phase.
+
